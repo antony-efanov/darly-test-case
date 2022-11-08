@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@import "./essentials/normalize";
+@import "./essentials/variables";
+@import "../pages/Main/style";
+@import "../components/Form/style";
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(134, 134, 134);
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 400px 50%;
+  place-items: center;
+  max-width: 1000px;
+  margin-inline: auto;
+  margin-block: 1rem;
+  gap: 1rem;
+  height: calc(100vh - 3rem);
+}
